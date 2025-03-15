@@ -10,19 +10,15 @@
     <div class="d-flex justify-content-center">
         <div *ngIf="imc < 18.5" class="text-center">
           <img src="../../img/abaixo.png" alt="Baixo Peso" width="50" height="50">
-          <figcaption class="text-white">Baixo Peso</figcaption>
         </div>
         <div *ngIf="imc >= 18.5 && imc < 24.9" class="text-center">
           <img src="../../img/normal.png" alt="Peso Normal" width="50" height="50">
-          <figcaption class="text-white">Peso Normal</figcaption>
         </div>
         <div *ngIf="imc >= 25 && imc < 29.9" class="text-center">
           <img src="../../img/acima.png" alt="Sobrepeso" width="50" height="50">
-          <figcaption class="text-white">Sobrepeso</figcaption>
         </div>
         <div *ngIf="imc >= 30" class="text-center">
           <img src="../../img/obeso.png" alt="Obesidade" width="50" height="50">
-          <figcaption class="text-white">Obesidade</figcaption>
         </div>
       </div>
 </form>
